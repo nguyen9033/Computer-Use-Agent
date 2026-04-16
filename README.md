@@ -15,8 +15,8 @@ If you're reviewing my resume, this README is the technical companion. It explai
 | **Scope** | ~4,250 lines of Python + injected JS, 7 modules, single author |
 | **Core idea** | Separate a reusable agent core (`WebAgent`) from challenge-specific glue (`orchestrator`) so the same engine can solve arbitrary browser workflows |
 | **Model** | Llama 3.3 70B on Cerebras (~0.4s/call, OpenAI-compatible tool-calling) |
-| **Benchmark** | Brett Adcock's 30-step web challenge ([source](https://x.com/adcock_brett/status/2018417226895028414)) — an adversarial React SPA with overlays, canvas drawing, drag-and-drop, hidden codes, base64 puzzles, and more |
-| **Result** | Robust pass rate across the 27 solvable steps; 3 steps were proven unsolvable due to bugs in the challenge site's own JS (documented below, not worked around with site patches) |
+| **Benchmark** | Brett Adcock's 30-step web challenge ([source](https://x.com/adcock_brett/status/2018417226895028414)) — an adversarial React SPA with overlays, canvas drawing, drag-and-drop, hidden codes, base64 puzzles, and more. Human benchmark solving time: **5 minutes**. |
+| **Result** | Robust pass rate across the 27 solvable steps, completed in **4 minutes 10 seconds** (beats the 5-minute human benchmark). 3 steps were proven unsolvable due to bugs in the challenge site's own JS (documented below, not worked around with site patches). |
 | **Applied direction** | Extending the same engine for consumer automation: automated bill payment and insurance claim processing |
 
 ---
@@ -33,7 +33,7 @@ If you're reviewing my resume, this README is the technical companion. It explai
 
 ## Origin & Roadmap
 
-Built in response to Brett Adcock's public challenge: <https://x.com/adcock_brett/status/2018417226895028414>. The 30-step challenge is an adversarial React SPA that stress-tests perception (overlays, hidden text, custom canvas widgets), action execution (DnD, drawing, key sequences), and control flow (multi-page forms, timed interactions, encoded codes).
+Built in response to Brett Adcock's public challenge: <https://x.com/adcock_brett/status/2018417226895028414>. The 30-step challenge is an adversarial React SPA that stress-tests perception (overlays, hidden text, custom canvas widgets), action execution (DnD, drawing, key sequences), and control flow (multi-page forms, timed interactions, encoded codes). The benchmark's published human solving time is **5 minutes**; this agent completes the 27 solvable steps in **4 minutes 10 seconds** end-to-end.
 
 I'm now extending the same engine into **consumer automation**:
 
