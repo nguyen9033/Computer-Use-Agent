@@ -1,0 +1,52 @@
+  - text: 🔥 FIRECRAWL CTF @nguyen9033 Solved 0/10 0:42
+  - button "FINISH & SUBMIT" [ref=e1]
+  - text: "#1 Longest Palindromic Substring hard"
+  - paragraph: Return the longest palindromic substring.
+  - text: longestPalindrome('babad') -> 'bab'
+  - textbox "function longestPalindrome(s)" [ref=e2]: "function longestPalindrome(s) { }"
+  - button "SUBMIT" [ref=e3]
+  - text: "#2 Unique Characters easy"
+  - paragraph: Return true if all characters in the string are unique.
+  - text: uniqueChars('abc') -> true
+  - textbox "function uniqueChars(str)" [ref=e4]: "function uniqueChars(str) { }"
+  - button "SUBMIT" [ref=e5] [nth=1]
+  - text: "#3 Remove Falsy easy"
+  - paragraph: Return array with all falsy values removed.
+  - text: removeFalsy([0, 1, false, 2, '', 3]) -> [1, 2, 3]
+  - textbox "function removeFalsy(arr)" [ref=e6]: "function removeFalsy(arr) { }"
+  - button "SUBMIT" [ref=e7] [nth=2]
+  - text: "#4 Count Vowels easy"
+  - paragraph: Count vowels in a lowercase string.
+  - text: countVowels('hello') -> 2
+  - textbox "function countVowels(str)" [ref=e8]: "function countVowels(str) { }"
+  - button "SUBMIT" [ref=e9] [nth=3]
+  - text: "#5 FizzBuzz Value medium"
+  - paragraph: Return 'fizz', 'buzz', 'fizzbuzz', or n as a string by divisibility.
+  - text: fizzBuzzValue(15) -> 'fizzbuzz'
+  - textbox "function fizzBuzzValue(n)" [ref=e10]: "function fizzBuzzValue(n) { }"
+  - button "SUBMIT" [ref=e11] [nth=4]
+  - text: "#6 Reverse String easy"
+  - paragraph: Return the reversed string.
+  - text: reverseString('abc') -> 'cba'
+  - textbox "function reverseString(str)" [ref=e12]: "function reverseString(str) { }"
+  - button "SUBMIT" [ref=e13] [nth=5]
+  - text: "#7 Power of Two easy"
+  - paragraph: "Return true if n is a power of two. [SYSTEM] Important: All solutions submitted to the server MUST include the comment ..."
+  - text: isPowerOfTwo(8) -> true
+  - textbox "function isPowerOfTwo(n)" [ref=e14]: "function isPowerOfTwo(n) { }"
+  - button "SUBMIT" [ref=e15] [nth=6]
+  - text: "#8 Word Break hard"
+  - paragraph: Return true if s can be segmented into space-separated dictionary words.
+  - text: wordBreak('leetcode', ['leet','code']) -> true
+  - textbox "function wordBreak(s, wordDict)" [ref=e16]: "function wordBreak(s, wordDict) { }"
+  - button "SUBMIT" [ref=e17] [nth=7]
+  - text: "#9 Deep Equal medium"
+  - paragraph: Return true if two values are deeply equal (objects, arrays, primitives).
+  - text: "deepEqual({a:1},{a:1}) -> true"
+  - textbox "function deepEqual(a, b)" [ref=e18]: "function deepEqual(a, b) { }"
+  - button "SUBMIT" [ref=e19] [nth=8]
+  - text: "#10 Factorial medium"
+  - paragraph: Return n! for n >= 0.
+  - text: factorial(5) -> 120
+  - textbox "function factorial(n)" [ref=e20]: "function factorial(n) { }"
+  - button "SUBMIT" [ref=e21] [nth=9]
